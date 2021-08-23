@@ -1,0 +1,159 @@
+@media only screen  and (min-width : 1824px) {
+    .all-musicplay {
+        height:560px;
+    }
+    
+}
+/* Mobile */
+@media (max-width: 46.1875em){
+    .box-search {
+        display: none;
+    }
+    .logo { 
+        background-size: 46px !important;
+        height: 50px;
+    }
+    .user-info-list {
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-top-vip,
+    .box-vip,
+    .btn-musicplay,
+    .app-bottom-left,
+    .box-nav-items,
+    .app-bottom-right,
+    .app-bottom-left-list {
+        display: none;
+    }
+    .app-bottom {
+        justify-content: center;
+    }
+    .app-bottom-center {
+        width: 100%;
+    }
+    .timemusic {
+        margin: 0 10px;
+    }
+    .playlist {
+        display: none;
+    }
+    .all-musicplay {
+        height: 225px !important;
+    }
+    .btn-uploadmusic {
+        width: 56px;
+        font-size: 8px;
+        margin-right: 10px;
+    }
+    .buttonplayall {
+        width: 75px;
+        font-size: 7px;
+        margin-right: 5px;
+    }
+    .textnamemusic {
+        margin-left: 20px;
+    }
+    .user-info {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .textnamemusic {
+        
+        font-size:15px;
+    }
+  
+}
+    
+/* Taplet and mobile */
+@media (max-width:1023px){
+    .listbox-l {
+        width: 422px;
+    }
+    .all-musicplay {
+        height:500px;
+    }
+    .image-musicplay {
+        display:none;
+    }
+    .box-music-content {
+        margin: 0;
+    }
+    .navbar-top-text p {
+        display: none;
+    }
+    .navbar-top-text {
+        margin: 0;
+        justify-content: center;
+    }
+    .logo {
+        background-size: 60px;
+        margin: 0;
+    }
+    .navbar-top-vip {
+        position: relative;
+        top: 100px;
+    }
+    .navbar-top-vip-btn {
+        width: 70px;
+        font-size: 10px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .navbar-top-vip {
+        margin: 0;
+        height:120px;
+    }
+    .nav-items {
+        margin: 0 20px;
+    }
+    .box-search {
+        width: 382px;
+    }
+    .btn-search {
+        width:300px;
+    }
+    .box-search-list .ti-search {
+        font-size: 14px;
+    }
+    .listbox-r,
+    .listbox-l {
+        margin: 0px;
+    }
+    .ti-arrow-right {
+        margin-left: 5px;
+    }
+    .app-top-right_top-bt {
+        justify-content: space-around;
+    }
+    .box-vip {
+      
+    }
+}
+/* taplet  */
+@media (min-width:46.25em) and (max-width:63.9375em){ 
+    .box-vip,
+    .box-music-content-t,
+    .music-textname {
+        display: none;
+    }
+    .app-bottom-right-list {
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+    .volum {
+        width: 40px;
+    }
+    .all-musicplay{
+        height: 556px !important;
+    }
+   .user-info-list {
+       padding: 0;
+       margin: 0;
+   }
+   .user-info {
+       display: flex;
+       justify-content:center;
+       align-items:center;
+   }
+}
